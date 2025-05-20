@@ -1,0 +1,46 @@
+name: pic
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - tqdm
+  - seaborn
+  - nltk
+  - spacy
+  - pyarrow
+  - pyyaml
+  - requests
+  - regex
+  - sentencepiece
+  - typing-extensions
+  - pip:
+      - einops==0.8.0
+      - ninja==1.11.1.1
+      - torch==2.6.0
+      - transformers==4.51.3
+      - accelerate==1.1.1
+      - deepspeed==0.15.1
+      - vllm==0.8.4
+      - spacy==3.7.4
+      - xformers==0.0.29.post2
+      - huggingface-hub==0.30.2
+      - openai==1.61.1
+      - anthropic==0.42.0
+      - datasets==3.1.0
+      - jsonlines==4.0.0
+      - jq==1.8.0
+      - packaging==22.0
+      - prometheus-client==0.21.1
+      - prometheus-eval==0.1.20
+      - prometheus-fastapi-instrumentator==7.0.0
+      - ray==2.45.0
+      - partial-json-parser==0.2.1.1.post4
+      - tiktoken==0.7.0

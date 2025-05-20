@@ -1,0 +1,34 @@
+hf_sft_dataset: jacquelinehe/pic-lm-sft-mixture
+output_dir: null 
+download_dir: null  
+seed: 42 
+
+
+mode: "all" # all, generate_perturbed_data, compute_normalized_log_prob, filter_data
+
+generate_perturbed_data:
+  max_num_samples: none 
+  random_drop:
+    full_drop_lower_fraction: 0.1 
+    partial_drop_lower_fraction: 0.4
+    drop_upper_fraction: 0.8    
+  generation:
+    sft_model_path: jacquelinehe/Llama-3.1-PIC-LM-8B
+    download_dir: null 
+    sampling:
+      max_tokens: 2048 
+      top_k: 20
+      temperature: 0.5 
+      repetition_penalty: 1.1
+      stop_tokens:
+        - "[/INST]"
+
+compute_normalized_log_probs:
+  batch_size: 16
+  if_model_path: meta-llama/Llama-3.1-8B-Instruct
+  num_targeted_last_tokens: 20
+
+filter_data:
+  full_tau: 0.5 
+  partial_tau: 0.3
+

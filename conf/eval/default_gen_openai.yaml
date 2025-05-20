@@ -1,0 +1,34 @@
+generation_engine: openai
+model_name_or_path: gpt-4o
+api_key: ${oc.env:OPENAI_API_KEY}
+
+save_dir: pic-bench-openai-out
+
+tasks:
+ - "entity_bios"
+ - "pop_bio_param"
+ - "pop_bio_cf"
+ - "askhistorians"
+ - "eli5"
+ - "expertqa"
+ - "facts"
+ - "xsum"
+
+sampling:
+  repetition_penalty: 1.2
+  max_tokens: 2048
+  temperature: 0.0
+  stop_tokens: 
+    - "[/INST]"
+    - "<|endoftext|>"
+  seed: 42
+
+batch_size: 50
+
+cache_dir: null
+cache_save_interval: 10
+
+max_instances: null
+override: true 
+is_thinking: false 
+add_fewshot: false 

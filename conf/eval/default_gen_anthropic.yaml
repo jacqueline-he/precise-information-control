@@ -1,0 +1,33 @@
+generation_engine: anthropic
+model_name_or_path: claude-3.5-sonnet
+api_key: ${oc.env:ANTHROPIC_API_KEY}
+
+save_dir: pic-bench-anthropic-out
+
+tasks:
+ - "entity_bios"
+ - "pop_bio_param"
+ - "pop_bio_cf"
+ - "askhistorians"
+ - "eli5"
+ - "expertqa"
+ - "facts"
+ - "xsum"
+
+sampling:
+  repetition_penalty: 1.2
+  max_tokens: 2048
+  temperature: 0.0
+  stop_tokens: 
+    - "[/INST]"
+    - "<|endoftext|>"
+  seed: 42
+
+batch_size: 50
+
+cache_dir: null
+cache_save_interval: 10
+
+max_instances: null
+override: true 
+add_fewshot: false 
