@@ -1,0 +1,88 @@
+{"loc": "San Francisco, California", "occupation": "politician", "draft_entities": ["Dianne Feinstein", "Gavin Newsom", "Kamala Harris", "Nancy Pelosi", "Willie Brown"]}
+{"loc": "Boulder, Colorado", "occupation": "politician", "draft_entities": ["Byron White", "Gary Hart", "Jared Polis"]}
+{"loc": "Philadelphia, Pennsylvania", "occupation": "politician", "draft_entities": ["Arlen Specter", "Bill Green", "Joe Sestak", "Michael Nutter"]}
+{"loc": "Miami, Florida", "occupation": "politician", "draft_entities": ["Ileana Ros-Lehtinen", "Kendrick Meek", "Marco Rubio"]}
+{"loc": "Honolulu, Hawaii", "occupation": "politician", "draft_entities": ["Barack Obama", "Neil Abercrombie"]}
+{"loc": "Boston, Massachusetts", "occupation": "politician", "draft_entities": ["Edward Brooke", "John F. Kennedy", "Joseph P. Kennedy Sr.", "Stephen Lynch", "Thomas Menino"]}
+{"loc": "Chicago, Illinois", "occupation": "politician", "draft_entities": ["Barack Obama", "Carol Moseley Braun", "Richard M. Daley", "Rod Blagojevich"]}
+{"loc": "Baltimore, Maryland", "occupation": "politician", "draft_entities": ["Barbara Mikulski", "Kweisi Mfume", "Nancy Pelosi"]}
+{"loc": "Los Angeles, California", "occupation": "politician", "draft_entities": ["Adam Schiff", "Henry Waxman", "Kamala Harris", "Richard Alarcon", "Tony Cardenas"]}
+{"loc": "Phoenix, Arizona", "occupation": "politician", "draft_entities": ["Barry Goldwater", "Ben Quayle", "John McCain", "Jon Kyl", "Kyrsten Sinema"]}
+{"loc": "Las Vegas, Nevada", "occupation": "politician", "draft_entities": ["Dina Titus", "Shelley Berkley", "Steven Horsford"]}
+{"loc": "Portland, Oregon", "occupation": "politician", "draft_entities": ["Earl Blumenauer", "Tom McCall", "Vera Katz"]}
+{"loc": "San Francisco, California", "occupation": "artist", "draft_entities": ["Barry Bonds", "Clint Eastwood", "Danny Glover"]}
+{"loc": "Philadelphia, Pennsylvania", "occupation": "artist", "draft_entities": ["Jill Scott", "Meek Mill", "Patti LaBelle", "Will Smith"]}
+{"loc": "Honolulu, Hawaii", "occupation": "artist", "draft_entities": ["Bruno Mars", "Don Stroud", "Glenn Medeiros", "Nicole Scherzinger"]}
+{"loc": "Seattle, Washington", "occupation": "artist", "draft_entities": ["Chris Cornell", "Jimi Hendrix", "Quincy Jones", "Ray Charles"]}
+{"loc": "Boston, Massachusetts", "occupation": "artist", "draft_entities": ["Ellsworth Kelly", "Jack Levine", "James Abbott McNeill Whistler", "Norman Rockwell"]}
+{"loc": "Chicago, Illinois", "occupation": "artist", "draft_entities": ["Buddy Guy", "Eartha Kitt", "Jennifer Hudson", "Kanye West"]}
+{"loc": "Baltimore, Maryland", "occupation": "artist", "draft_entities": ["Animal Collective", "Billie Holiday", "Cass McCombs", "David Portner", "Frank Zappa\n2", "Tupac Shakur"]}
+{"loc": "Austin, Texas", "occupation": "artist", "draft_entities": ["Alejandro Escovedo", "Bob Schneider", "Gary Clark Jr.", "Stevie Ray Vaughan"]}
+{"loc": "Phoenix, Arizona", "occupation": "artist", "draft_entities": ["Jordin Sparks", "Linda Ronstadt", "Peniston", "Stevie Nicks"]}
+{"loc": "Portland, Oregon", "occupation": "artist", "draft_entities": ["Courtney Taylor-Taylor", "Esperanza Spalding", "Gus Van Sant", "Kaitlyn Weaver", "Matt Groening"]}
+{"loc": "San Francisco, California", "occupation": "actor", "draft_entities": ["Barry Williams", "Benjamin Bratt", "Clint Eastwood", "Danny Glover", "Michael Biehn"]}
+{"loc": "Boulder, Colorado", "occupation": "actor", "draft_entities": ["Matt Cassel", "Scott Carpenter", "Trey Parker"]}
+{"loc": "Philadelphia, Pennsylvania", "occupation": "actor", "draft_entities": ["Danny DeVito", "Kevin Hart", "Patti LaBelle", "Richard Gere", "Rob McElhenney", "Will Smith"]}
+{"loc": "Miami, Florida", "occupation": "actor", "draft_entities": ["Catherine Keener", "Danny Pino", "Enrique Murciano", "Gina Torres", "Oscar Isaac"]}
+{"loc": "Honolulu, Hawaii", "occupation": "actor", "draft_entities": ["Bette Midler", "Jason Momoa", "Kelly Hu", "Nicole Scherzinger"]}
+{"loc": "Seattle, Washington", "occupation": "actor", "draft_entities": ["Daryl Hannah", "Jeffrey Dean Morgan", "Kyle MacLachlan", "Rainn Wilson"]}
+{"loc": "Boston, Massachusetts", "occupation": "actor", "draft_entities": ["Conan O'Brien", "Donnie Wahlberg", "Mark Wahlberg", "Matt Damon", "Steve Carell"]}
+{"loc": "Chicago, Illinois", "occupation": "actor", "draft_entities": ["Bill Murray", "Jennifer Morrison", "John Cusack", "Robin Williams", "Vince Vaughn"]}
+{"loc": "Baltimore, Maryland", "occupation": "actor", "draft_entities": ["David Hasselhoff", "Felicia Pearson", "Jada Pinkett Smith", "John Waters", "Josh Charles"]}
+{"loc": "Los Angeles, California", "occupation": "actor", "draft_entities": ["Chris Pratt", "Crispin Glover", "David Arquette", "Haley Joel Osment", "James Dean", "Jennifer Jason Leigh", "Leonardo DiCaprio", "Michael Biehn", "Nicolas Cage", "Shia LaBeouf"]}
+{"loc": "Denver, Colorado", "occupation": "actor", "draft_entities": ["David Fincher", "Don Cheadle", "John Carroll Lynch", "Tim Allen"]}
+{"loc": "Las Vegas, Nevada", "occupation": "actor", "draft_entities": ["Carrot Top", "Charisma Carpenter", "Phyllis Davis", "Tony Curtis"]}
+{"loc": "Portland, Oregon", "occupation": "actor", "draft_entities": ["Jean Underwood", "Kaitlin Olson"]}
+{"loc": "Philadelphia, Pennsylvania", "occupation": "scientist", "draft_entities": ["Edgar Fahs Smith", "Francis Hopkinson", "Henry Poiner", "Joseph Leidy", "Nathaniel Chapman"]}
+{"loc": "Seattle, Washington", "occupation": "scientist", "draft_entities": ["George Francis Atwood", "Mary-Claire King", "Nathan Myhrvold"]}
+{"loc": "San Francisco, California", "occupation": "writer", "draft_entities": ["Amy Tan", "Armistead Maupin", "Herbert Gold", "Jack London"]}
+{"loc": "Philadelphia, Pennsylvania", "occupation": "writer", "draft_entities": ["Edgar Allan Poe", "Lisa Scottoline", "Lorene Cary", "Owen Wister", "S.J. Perelman"]}
+{"loc": "Boston, Massachusetts", "occupation": "writer", "draft_entities": ["Dennis Lehane", "Edgar Allan Poe", "George V. Higgins", "Nathaniel Hawthorne", "Susan Orlean"]}
+{"loc": "Chicago, Illinois", "occupation": "writer", "draft_entities": ["Audrey Niffenegger", "Ernest Hemingway", "Gillian Flynn", "Nelson Algren", "Richard Wright"]}
+{"loc": "Los Angeles, California", "occupation": "writer", "draft_entities": ["Bret Easton Ellis", "Charles Bukowski", "James Ellroy", "Mona Simpson", "Ray Bradbury"]}
+{"loc": "Denver, Colorado", "occupation": "writer", "draft_entities": ["Connie Willis", "James Galvin", "John Fante", "Manuel Ramos", "Sandra Dallas"]}
+{"loc": "Philadelphia, Pennsylvania", "occupation": "entrepreneur", "draft_entities": ["Damon Dash", "Josh Kopelman", "Marc Ecko", "Richard Hayne", "Robert Greenberg"]}
+{"loc": "Miami, Florida", "occupation": "entrepreneur", "draft_entities": ["Armando Christian Pérez", "Flo Rida", "Gloria Estefan", "Rick Ross"]}
+{"loc": "Honolulu, Hawaii", "occupation": "entrepreneur", "draft_entities": ["Bethany Hamilton", "Laird Hamilton", "Nicole Scherzinger", "Steve Case"]}
+{"loc": "Seattle, Washington", "occupation": "entrepreneur", "draft_entities": ["Howard Schultz", "Jeff Bezos", "Paul Allen", "Richard Barton"]}
+{"loc": "Chicago, Illinois", "occupation": "entrepreneur", "draft_entities": ["Barack Obama", "Bob Greene", "George S. Halas", "Hugh Hefner", "Paul Galvin", "Ray Kroc"]}
+{"loc": "Los Angeles, California", "occupation": "entrepreneur", "draft_entities": ["Andrew Luster", "Chris DeWolfe", "Evan Spiegel", "Rob Levin"]}
+{"loc": "Austin, Texas", "occupation": "entrepreneur", "draft_entities": ["Gary Keller", "Michael Dell", "Robert Rodriguez"]}
+{"loc": "Portland, Oregon", "occupation": "entrepreneur", "draft_entities": ["Chris Guillebeau", "Craig Dalton", "Matthew Gray Gubbels", "Phil Knight", "Ryan Carson"]}
+{"loc": "Philadelphia, Pennsylvania", "occupation": "journalist", "draft_entities": ["Andrea Mitchell", "Ed Rendell", "Larry Kane", "Michael Smerconish", "Sarah Kendzior"]}
+{"loc": "Honolulu, Hawaii", "occupation": "journalist", "draft_entities": ["Greta Van Susteren", "Nicole Scherzinger", "Sarah Kendzior"]}
+{"loc": "Seattle, Washington", "occupation": "journalist", "draft_entities": ["Glenn Greenwald", "Sarah Kendzior", "Timothy Egan"]}
+{"loc": "Chicago, Illinois", "occupation": "journalist", "draft_entities": ["Mike Royko", "Nicholas Kristof", "Robin Robinson", "Sarah Kendzior"]}
+{"loc": "Baltimore, Maryland", "occupation": "journalist", "draft_entities": ["H.L. Mencken", "Russell Baker", "Sarah Kendzior"]}
+{"loc": "San Francisco, California", "occupation": "professional athelete", "draft_entities": ["Barry Bonds", "Frank Robinson", "Jason Kidd", "Joe Morgan", "Willie Mays"]}
+{"loc": "Boulder, Colorado", "occupation": "professional athelete", "draft_entities": ["Emma Coburn", "Kara Goucher", "Taylor Teichmann"]}
+{"loc": "Philadelphia, Pennsylvania", "occupation": "professional athelete", "draft_entities": ["Aaron McKie", "Joe Frazier", "Kyle Lowry", "Mike Schmidt", "Rasheed Wallace", "Wilt Chamberlain"]}
+{"loc": "Miami, Florida", "occupation": "professional athelete", "draft_entities": ["Devin Hester", "Rick Barry", "Sean Taylor", "Teddy Bridgewater"]}
+{"loc": "Honolulu, Hawaii", "occupation": "professional athelete", "draft_entities": ["Bryan Clay", "Carissa Moore", "Michelle Wie", "Natasha Kai", "Sidney Sugishita"]}
+{"loc": "Seattle, Washington", "occupation": "professional athelete", "draft_entities": ["Brandon Roy", "Jamal Crawford", "Jason Terry", "Spencer Hawes"]}
+{"loc": "Chicago, Illinois", "occupation": "professional athelete", "draft_entities": ["Derrick Rose", "Dwyane", "Eddy Curry", "Isiah Thomas", "Jabari Parker", "Tim Hardaway Jr."]}
+{"loc": "Baltimore, Maryland", "occupation": "professional athelete", "draft_entities": ["Carmelo Anthony", "Juan Dixon", "Michael Phelps", "Reggie Lewis"]}
+{"loc": "Austin, Texas", "occupation": "professional athelete", "draft_entities": ["Drew Brees", "Kevin Durant", "Ricky Williams"]}
+{"loc": "Denver, Colorado", "occupation": "professional athelete", "draft_entities": ["Brandon Marshall", "Chauncey Billups", "David Diaz", "Earl Watson", "Matt Holliday"]}
+{"loc": "Las Vegas, Nevada", "occupation": "professional athelete", "draft_entities": ["Brandon Flowers", "Bryce Harper", "Charley Hoffman", "Greg Maddux"]}
+{"loc": "Portland, Oregon", "occupation": "professional athelete", "draft_entities": ["Brandon Roy", "Danny Ainge", "Fred Jones", "Kevin Love", "Terrence Ross"]}
+{"loc": "San Francisco, California", "occupation": "activist", "draft_entities": ["Angela Davis", "Danny Glover", "Harvey Milk"]}
+{"loc": "Philadelphia, Pennsylvania", "occupation": "activist", "draft_entities": ["Abu-Jamal", "Angela Davis", "Ida B. Wells", "Will Smith"]}
+{"loc": "Miami, Florida", "occupation": "activist", "draft_entities": ["Jackie Rivera", "Janet Reno", "Luther Campbell"]}
+{"loc": "Honolulu, Hawaii", "occupation": "activist", "draft_entities": ["Barack Obama", "Jason Mraz", "Nicole Scherzinger"]}
+{"loc": "Seattle, Washington", "occupation": "activist", "draft_entities": ["Gary Locke", "Sarah Kendzior"]}
+{"loc": "Boston, Massachusetts", "occupation": "activist", "draft_entities": ["Barbara Lee", "Howard Zinn", "Mel King", "Noam Chomsky"]}
+{"loc": "Chicago, Illinois", "occupation": "activist", "draft_entities": ["Fred Hampton", "Ida B. Wells", "Jesse Jackson", "Lu Palmer", "Richard Steele"]}
+{"loc": "Baltimore, Maryland", "occupation": "activist", "draft_entities": ["DeRay Mckesson", "Frederick Douglass", "Kweisi Mfume"]}
+{"loc": "Los Angeles, California", "occupation": "activist", "draft_entities": ["Casey Affleck", "George Takei", "Miley", "Tom Hayden"]}
+{"loc": "Denver, Colorado", "occupation": "activist", "draft_entities": ["Glenn Morris", "Judy Collins", "Ward Churchill"]}
+{"loc": "Philadelphia, Pennsylvania", "occupation": "singer", "draft_entities": ["Jill Scott", "Meek Mill", "Patti LaBelle"]}
+{"loc": "Honolulu, Hawaii", "occupation": "singer", "draft_entities": ["Bruno Mars", "Don Ho", "Nicole Scherzinger"]}
+{"loc": "Seattle, Washington", "occupation": "singer", "draft_entities": ["Ann Wilson", "Kenny G", "Nancy Wilson", "Quincy Jones", "Ray Charles"]}
+{"loc": "Boston, Massachusetts", "occupation": "singer", "draft_entities": ["Donna Summer", "James Taylor", "Joey McIntyre", "Mark Sandman"]}
+{"loc": "Chicago, Illinois", "occupation": "singer", "draft_entities": ["Jennifer Hudson", "Kanye West", "R. Kelly"]}
+{"loc": "Baltimore, Maryland", "occupation": "singer", "draft_entities": ["Cass Elliot", "Eubie Blake", "Frank Zappa\n3", "Tupac Shakur"]}
+{"loc": "Austin, Texas", "occupation": "singer", "draft_entities": ["Bob Schneider", "Gary Clark Jr.", "Stevie Ray Vaughan"]}
+{"loc": "Phoenix, Arizona", "occupation": "singer", "draft_entities": ["Jordin Sparks", "Stevie Nicks"]}
+{"loc": "Las Vegas, Nevada", "occupation": "singer", "draft_entities": ["Brandon Flowers", "Carrot Top", "Charisma Carpenter", "Ne-Yo"]}
+{"loc": "Portland, Oregon", "occupation": "singer", "draft_entities": ["Courtney Taylor-Taylor", "Esperanza Spalding", "Jenny Conlee"]}

@@ -1,0 +1,28 @@
+model_name_or_path: null
+mode: all # [generate, eval, all]
+save_fp: null 
+save_results: true 
+data_path: ${env:HOME}/precise-information-control/use_cases/data/asqa.jsonl
+pic_type: partial 
+debug_path: null 
+passage_level: False
+
+instr_sfx: " Note that there are multiple possible answers; please return all of them. Answer the question by returning verbatim **exactly all** of the claims that contain the desired answer. "
+
+# vllm serving
+download_dir: null 
+max_model_len: 4096
+tensor_parallel_size: 1
+gpu_memory_utilization: 0.8
+max_num_batched_tokens: 8192
+disable_custom_all_reduce: true 
+swap_space: 4
+
+sampling:
+  temperature: 0.0 
+  repetition_penalty: 1.2
+  max_tokens: 2048
+  stop_tokens: 
+    - "[/INST]"
+    - "<|endoftext|>"
+  seed: 0

@@ -1,0 +1,54 @@
+task: qampari
+pic_type: full 
+mode: all # [all, generate_draft, verify_draft_claims, generate_final]
+seed_data_path: '../use_cases/data/qampari.jsonl'
+download_dir: null 
+eval_upper_bound: false
+
+draft_fp: null
+verify_fp: null
+final_fp: null
+
+override_generate_draft: true 
+override_verify_draft_claims: true  
+override_generate_final: true  
+
+do_fast_eval: true 
+k: 4 # self-consistency
+
+base_llm: # LLM used for steps 1-3; this is typically larger than final_lm 
+  model_name_or_path: meta-llama/Llama-3.3-70B-Instruct
+  download_dir: null 
+  tensor_parallel_size: 4
+  enforce_eager: true 
+  max_model_len: 4096
+  gpu_memory_utilization: 0.8
+
+final_lm: # LM used for step 4 
+  model_name_or_path: null 
+  tensor_parallel_size: ${base_llm.tensor_parallel_size}
+  max_model_len: 4096
+  enforce_eager: ${base_llm.enforce_eager} 
+  gpu_memory_utilization: ${base_llm.gpu_memory_utilization}
+  download_dir: ${base_llm.download_dir}
+
+sampling_params:
+  generate_draft:
+    temperature: 0.0
+    max_tokens: 512
+    repetition_penalty: 1.2 
+    stop_tokens:
+      - "[/INST]"
+
+
+  verify_draft_claims:
+    temperature: 0.4 
+    max_tokens: 3
+    repetition_penalty: 1.1 
+    n: 5
+
+  generate_final:
+    temperature: 0.0 
+    max_tokens: 256
+    repetition_penalty: 1.2
+    seed: 42

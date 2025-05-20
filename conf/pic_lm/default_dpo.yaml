@@ -1,0 +1,52 @@
+run:
+  output_dir: pic-lm-8b
+  num_gpus: 2
+  per_device_train_batch_size: 2
+  total_batch_size: 128
+  gradient_accumulation_steps: 16
+
+model:
+  sft_model_name_or_path: jacquelinehe/Llama-3.1-PIC-LM-8B-SFT
+  use_flash_attn: true 
+  use_slow_tokenizer: true 
+  tokenizer_name: ${model.sft_model_name_or_path}
+
+dataset:
+  name: jacquelinehe/pic-lm-preference-mixture
+  max_num_samples: 20000
+
+training:
+  num_train_epochs: 1 
+  learning_rate: 1e-6
+  max_train_steps: null 
+  max_seq_length: 2048
+  preprocessing_num_workers: 32
+  checkpointing_steps: epoch
+  lr_scheduler_type: cosine # [linear, cosine, cosine_with_restarts, polynomial, constant, constant_with_warmup]
+  warmup_ratio: 0.1 
+  weight_decay: 0.1
+  logging_steps: 10
+  resume_from_checkpoint: null 
+  seed: 42 
+  with_tracking: true 
+  low_cpu_mem_usage: false 
+  clip_grad_norm: -1 
+  timeout: 10800
+  overwrite_cache: false 
+  gradient_checkpointing: false
+
+loss:
+  dpo_loss_type: dpo_norm # [dpo, dpo_norm, simpo]
+  dpo_beta: 0.1 
+  dpo_gamma_beta_ratio: 0.3
+  dpo_label_smoothing: 0.0
+  load_balancing_loss: false
+
+lora:
+  use_lora: false 
+  use_qlora: false 
+  lora_rank: 16 
+  lora_alpha: 8
+  lora_dropout: 0.1 
+  use_8bit_optimizer: false 
+  

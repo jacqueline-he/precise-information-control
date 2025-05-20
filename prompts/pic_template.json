@@ -1,0 +1,4 @@
+{
+ "pic_full_prompt": ["[INST] Complete the instruction and include **exactly all** of the following claims--no more, no fewer. Your response must be entirely grounded on the given context while also answering the question.\n\n", "Instruction:\n{instruction}\nClaims:\n{claims}\nResponse:[/INST]"],
+ "pic_partial_prompt": ["[INST] Complete the instruction using **any subset** of the following claims, if they help your answer. Do not introduce any new claims beyond what's given. Make sure that your response is grounded on the given context, while also answering the question.\n\n", "Instruction:\n{instruction}\nClaims:\n{claims}\nResponse:[/INST]"]
+}

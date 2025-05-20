@@ -1,0 +1,64 @@
+task: birthplace 
+pic_type: full 
+mode: all # [all, generate_draft, verify_draft_claims, generate_final]
+download_dir: null
+seed_data_path: '../use_cases/data/birthplace.jsonl'
+
+draft_fp: null
+verify_fp: null
+final_fp: null
+
+override_generate_draft: true 
+override_verify_draft_claims: true  
+override_generate_final: true  
+
+k: 3 # self-consistency
+do_fast_eval: true 
+ 
+
+base_llm: # LLM used for steps 1-3; this is typically larger than final_lm 
+  model_name_or_path: meta-llama/Llama-3.3-70B-Instruct 
+  tensor_parallel_size: 4
+  enforce_eager: true 
+  max_model_len: 4096
+  gpu_memory_utilization: 0.8
+
+final_lm: # LM used for step 4 
+  model_name_or_path: null 
+  tensor_parallel_size: ${base_llm.tensor_parallel_size}
+  max_model_len: 4096
+  enforce_eager: ${base_llm.enforce_eager} 
+  gpu_memory_utilization: ${base_llm.gpu_memory_utilization}
+
+sampling_params:
+  generate_draft:
+    temperature: 0.0
+    max_tokens: 512
+    repetition_penalty: 1.2 
+    stop_tokens:
+      - "[/INST]"
+      - "\n\n"
+
+  verify_draft_claims:
+    temperature: 0.4 
+    max_tokens: 50
+    repetition_penalty: 1.1 
+    n: 5
+
+  generate_final:
+    temperature: 0.0 
+    max_tokens: 256
+    repetition_penalty: 1.2 
+    seed: 42
+
+
+evaluate:
+  eval_upper_bound: false 
+  search: true 
+  verify: true 
+  score: true 
+  cache_file: null
+  claim_verification:
+    cache_dir: null
+    use_cache: false
+    model_name: 'gpt-4o-mini'
