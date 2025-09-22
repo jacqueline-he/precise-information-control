@@ -4,7 +4,7 @@ Authors:
 [Jacqueline He](https://jacqueline-he.github.io), [Howard Yen](https://howard-yen.github.io), [Margaret Li](https://margs.li), [Shuyue Stella Li](https://stellalisy.com), [Zhiyuan Zeng](https://zhiyuan-zeng.github.io), [Weijia Shi](https://weijiashi.notion.site),  
 [Yulia Tsvetkov](https://homes.cs.washington.edu/~yuliats), [Danqi Chen](https://www.cs.princeton.edu/~danqic), [Pang Wei Koh](https://koh.pw), [Luke Zettlemoyer](https://homes.cs.washington.edu/~lsz)
 
-This repository contains the code and data for our 2025 preprint: 
+This repository contains the code and data for our NeurIPS 2025 paper: 
 [Precise Information Control in Long-Form Generation](https://arxiv.org/abs/2506.06589).
 
 <p align="center">
@@ -15,13 +15,11 @@ This repository contains the code and data for our 2025 preprint:
 
 
 ```bibtex
-@misc{he2025precise,
+@inproceedings{he2025precise,
       title={Precise Information Control in Long-Form Text Generation}, 
       author={Jacqueline He and Howard Yen and Margaret Li and Shuyue Stella Li and Zhiyuan Zeng and Weijia Shi and Yulia Tsvetkov and Danqi Chen and Pang Wei Koh and Luke Zettlemoyer},
+      booktitle={Proceedings of the 39th Conference on Neural Information Processing Systems (NeurIPS 2025)},
       year={2025},
-      eprint={2506.06589},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
       url={https://arxiv.org/abs/2506.06589}, 
 }
 ```
