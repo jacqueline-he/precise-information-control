@@ -8,7 +8,7 @@ This repository contains the code and data for our NeurIPS 2025 paper:
 [Precise Information Control in Long-Form Generation](https://arxiv.org/abs/2506.06589).
 
 <p align="center">
-  <img src="figures/teaser.png"  height="80%">
+  <img src="figures/teaserv2.png"  height="80%">
 </p>
 
 **PIC** (**P**recise **I**nformation **C**ontrol) is a new task formulation that evaluates intrinsic hallucination at the granularity of discrete verifiable claims. PIC raises a fundamental question: can LMs produce long-form responses that are strictly grounded on a set of explicit statements, without introducing any unsupported claims? We introduce a benchmark (PIC-Bench), a training framework (PIC-LM), and several use cases that demonstrate the utility of exploring this problem.
